@@ -1,0 +1,57 @@
+.single-tour{
+    max-width:500px;
+    background-color: white;
+    margin: 100px 0;
+    border-radius: 8px;
+}
+.single-tour img{
+    width: 100%;
+    height: 300px;
+}
+
+footer{
+    padding: 20px;
+}
+.tour-info{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.tour-price{
+    color: rgb(41, 191, 191);
+    border: 1px solid cyan;
+    padding: 0 14px;
+    border-radius: 4px;
+    transition: .7s ease-out;
+    cursor: pointer;
+}
+.tour-price:hover{
+background-color: rgba(41, 191, 191, 0.256);
+}
+.delete-btn{
+    color: red;
+    border: 2px solid red;
+    background: transparent;
+    transition: .7s ease-out
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+.delete-btn:hover{
+    background-color: rgb(62, 13, 13);
+    color: white;
+}
+.delete-btn:hover{
+    border-color: none;
+}
